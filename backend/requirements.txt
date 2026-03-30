@@ -1,0 +1,39 @@
+# Web Framework
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# Vector Database
+chromadb==0.4.24
+
+# Embeddings
+sentence-transformers==2.5.1
+
+# NLP
+spacy==3.7.4
+nltk==3.8.1
+textblob==0.17.1
+
+# ML
+scikit-learn==1.4.2
+numpy==1.26.4
+
+# Database
+sqlalchemy==2.0.27
+aiosqlite==0.20.0
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1   # ✅ FIX
+
+# Config
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# CORS
+starlette==0.36.3
+
+# Text processing
+beautifulsoup4==4.12.3
+lxml==5.1.0
