@@ -52,7 +52,7 @@ This is a **mythology-based AI chatbot** that answers questions about the Mahabh
 | **Embeddings** | CountVectorizer / Word2Vec | Sentence Transformers (`all-MiniLM-L6-v2`) |
 | **Database** | MongoDB (manual Q&A lookup) | ChromaDB (vector DB) + SQLite (users) |
 | **Backend** | Django + Djongo | **FastAPI** (async, modern) |
-| **Frontend** | Empty React folder | **Full React + Tailwind CSS** app |
+| **Frontend** | Full React + Tailwind CSS app | **Full React + Tailwind CSS** app |
 | **NLP Pipeline** | Naive Bayes classification | **RAG Agent** — intent detection, entity extraction, multi-strategy retrieval, answer synthesis |
 | **Authentication** | Basic password check | **JWT tokens** (python-jose + bcrypt) |
 | **Chat History** | Single query-response | **Full conversation persistence** with sidebar |
